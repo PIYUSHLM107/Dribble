@@ -1,0 +1,433 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: #fff;
+     height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    
+   
+    
+}
+
+nav{
+    padding: 0.5rem 0.8rem;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-left {
+    padding: 0 0.8rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+
+}
+
+.nav-left h4{
+    font-weight: 500;
+}
+
+
+.dribble{
+    height: 8vh;
+    width: 6vw;
+}
+
+.nav-right{
+    padding: 0 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+nav button{
+    cursor: pointer;
+}
+
+.sign-up{
+    background-color: #fff;
+    border: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.log-in{
+    background-color: black;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 0.5rem;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.hero{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.hero-top {
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    
+    font-size: 2.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-top h1{
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.hero-txt{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    
+    font-size: 1.2rem;
+    gap: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.search-bar {
+    position: relative;
+    width: 40%;
+}
+
+.search-left {
+    width: 100%;
+    height: 50px;
+    padding: 0 120px 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    outline: none;
+}
+
+.search-right {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.search-type,
+.search-btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.search-type {
+    font-size: 1rem;
+}
+
+.search-btn {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: pink;
+}
+
+.hero-btm{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hero-btm h1{
+    font-size: 1.5rem;
+    color: rgba(19, 7, 7, 0.7);
+}
+
+.hero-btm button{
+    border-radius: 20px;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+
+
+.sect1-top{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-mid{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.top-mid h3{
+     border-radius: 20px;
+    border: none;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.top-mid h3:hover{
+    background-color: rgba(128, 128, 128, 0.341);
+    border-radius: 20px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+
+#tags{
+    padding: 0.5rem 0.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.top-right button{
+    padding: .6rem;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    gap: 5px;
+}
+
+.top-right button:hover{
+    background-color: black;
+    color: white;
+    border: none;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+
+.sect1 {
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 3rem;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 4.5rem;
+    padding: 2rem 0;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 10vw;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card-img img{
+
+    object-fit: cover;
+    height: 80%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.card-img video{
+     object-fit: cover;
+    height: 80%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-desc{
+    margin-top: -2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.desc-left{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.desc-left h4{
+    display: flex;
+    font-weight: 600;
+    font-size: 0.9rem;
+    
+}
+
+.pro{
+    background-color: rgba(128, 128, 128, 0.356);
+    padding: 0.1rem 0.3rem;
+    border-radius: 10px;
+}
+
+.desc-left img{
+    height: 1.2vw;
+    border-radius: 50%;
+}
+
+.container-btm{
+    height: 15%;
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+}
+
+
+.container-btm button{
+    padding: 0.5rem;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.sect2 {
+    width: 100%;
+    height: 20vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.logo-track {
+    display: flex;
+    width: max-content;
+    animation: slider 20s linear infinite;
+    will-change: transform;
+    gap: 6.5rem;
+    transition: all 0.5s ease;
+}
+
+.logo-group {
+    display: flex;
+    align-items: center;
+    gap: 7.5rem;
+    flex-shrink: 0;
+    padding-right: 4rem;
+}
+
+.logo-group img {
+    width: 130px;
+    
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+@keyframes slider {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.logo-track:hover {
+    animation-play-state: paused;
+}
+
+.footer{
+    height: 30vh;
+    width: 100%;
+    padding: 3rem 5rem;
+}
+
+.foot-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.foot-about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+    
+    font-size: 1.2rem;
+}
+
+.foot-about h4{
+    font-weight: 600;
+}
+
+.foot-icons{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.3rem;
+}
+
+.foot-btm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 5rem 0rem 5rem;
+}
+
+.foot-btm-left{
+    display: flex;
+    gap: 1rem;
+}
+
+.foot-btm-right{
+    display: flex;
+    gap: 1rem;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+}
+
+.foot-btm h6{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.586);
+}
